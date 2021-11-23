@@ -1,6 +1,3 @@
-#ifndef MERGESORT_H
-#define MERGESORT_H
-
 #include <iostream>
 using namespace std;
 
@@ -81,5 +78,3 @@ void merge_sort(T* array, T* buffer, int left, int right)
     //Целый отсортированный массив
     merge<T, cmp>(array, buffer, left, middle, right);
 }
-
-#endif
